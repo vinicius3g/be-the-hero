@@ -110,15 +110,9 @@ yarn startmobile
 
 <br>
 
-## Contributing 🤔 
-
-Please read [CONTRIBUTING](https://github.com/leoronne/BeTheHero/blob/master/CONTRIBUTING.md) for details on code of conduct, and the process for submitting pull requests to the project.
-
-<br>
-
 ## License :memo:
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 - **[MIT license](https://github.com/leoronne/BeTheHero/blob/master/LICENSE)**
-- Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Leonardo Ronne</a>.
+- Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Vinicius Paixão</a>.
 ## 
