@@ -1,118 +1,61 @@
-<p align="center">
-  <img src="client/src/assets/img/logo.png" width="300px"/>
-</p>
+<h1 align="center">
+    <img alt="DevRadar" title="#delicinha" src=".github/bethehero.svg" width="200px" />
+</h1>
 
-# 
-
-<p align="center">
-  <img src="/assets/img/banneBTH.png"/>
-</p>
-
-<br>
+<h4 align="center">
+  🚀 Semana OmniStack 11.0
+</h4>
 
 <p align="center">
-  <a href="#project-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#techs-rocket">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#extras-slot_machine">Extras</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#installation-wrench">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#test-heavy_check_mark">Test</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#to-do-newspaper">To Do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contributing-">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license-memo">License</a>
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 <br>
 
-## Project 💻
+<p align="center">
+  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
+</p>
 
-**Be The Hero** connects people who want to help Non Governmental Organizations (NGO). At the platform NGOs can create incidents which they need a <strong>hero</strong> to help. The heroes can search through all the incidents created and choose which one they want to help and contact the NGO.
+## :rocket: Tecnologias
 
-It was a project made on [Rocketseat](https://github.com/Rocketseat)'s #11 OmniStack Week, with a few changes.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<br>
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-## Techs :rocket:
+## 💻 Projeto
 
-- [Node.js](https://nodejs.org/en/);
-- [ReactJS](https://reactjs.org);
-- [React Native](https://facebook.github.io/react-native/).
+O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
 
-<br>
+## 🔖 Layout
 
-## Extras :slot_machine:
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=37%3A394). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
-- Email integration (account verification, reset password etc);
-- JWT authentication;
-- Frontend x Backend Validation.
+## 🤔 Como contribuir
 
-<br>
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-## Installation :wrench:
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-You can install the application server and client using, from the root folder, the following command:
+## :memo: Licença
 
-```sh
-yarn installapp
-```
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-<br>
+---
 
-If you wish to install the mobile version, from the root folder run the following command:
-
-```sh
-yarn installmobile
-```
-Or, if you use Android, download and install the [.apk](https://github.com/leoronne/BeTheHero/blob/master/mobile/assets/BeTheHero.apk) on your phone
-
-<br>
-
-## Test :heavy_check_mark:
-
-To start the application server on your local machine, from the root folder, just run:
-
-```sh
-yarn start
-```
-
-<strong>Note: you need to create a .env file on the server directory based on the [example file](https://github.com/leoronne/BeTheHero/blob/master/server/example.env). You can read the documentation of the APIs and test them [here](http://betheehero.herokuapp.com/api-docs/).</strong>
-
-<br>
-
-
-To start the application client (frontend), from the root folder, just run:
-
-```sh
-yarn startclient
-```
-
-<br>
-
-
-<strong>Remember to change the [client](https://github.com/leoronne/BeTheHero/blob/master/client/src/services/api.js) and [mobile](https://github.com/leoronne/BeTheHero/blob/master/mobile/src/services/api.js) api's baseURL to your local server adress (which is set to http://localhost:8080/ at [server/index.js](https://github.com/leoronne/BeTheHero/blob/master/server/src/index.js)) or to your production server.</strong>
-
-<br>
-
-To start the mobile application client you need to install [expo](https://expo.io/learn) on your local machine then, from the root folder, just run:
-
-```sh
-yarn startmobile
-```
-
-<br>
-
-## To do :newspaper:
-
-- Profile page for NGO insert and detail more about them;
-- Create more contact options;
-- Filters so that NGO and heroes can search through incidents more efficiently;
-- Mark the incidents that have been already solved;
-- Interface for the NGOs on the mobile version, in the moment the mobile app only lists all the incidents created and allows you to contact the NGO responsible.
-
-<br>
-
-## License :memo:
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-- **[MIT license](https://github.com/leoronne/BeTheHero/blob/master/LICENSE)**
-- Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Vinicius Paixão</a>.
-## 
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
